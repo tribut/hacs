@@ -1,18 +1,3 @@
-
-
-## Local data storage
-
-All data it handles are saved to `hacs.*` files that is located under `.storage`
-
-## HACS Sensor
-
-During the setup HACS will add a new sensor to your installation (`sensor.hacs`).
-This will have the number of pending updates as the state.
-
-![sensor](https://user-images.githubusercontent.com/15093472/59136215-5ff29d00-8982-11e9-860f-75d382a4d3b7.png)
-
-***
-
 ## Contribute
 
 This integration is **massive** and there are a lot of areas to contribute to.

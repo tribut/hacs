@@ -1,10 +1,10 @@
 ---
-id: configuration_ui
+id: ui
 title: Configure HACS with the UI
 sidebar_label: UI (Modern)
 ---
 
-_This page assume that you have allready finished the [installation](/docs/installation_manual)_
+_This page assume that you have allready finished the [installation](/docs/installation/manual)_
 
 # Where to go?
 

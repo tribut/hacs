@@ -1,5 +1,5 @@
 ---
-id: usage_startup
+id: startup
 title: Startup
 sidebar_label: Startup
 ---

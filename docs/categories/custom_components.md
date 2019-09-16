@@ -1,5 +1,5 @@
 ---
-id: category_custom_components
+id: custom_components
 title: Custom Components
 sidebar_label: Custom Components
 ---

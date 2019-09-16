@@ -1,5 +1,5 @@
 ---
-id: installation_cli
+id: cli
 title: CLI Installation
 sidebar_label: CLI Installation
 ---
@@ -21,4 +21,4 @@ cp -r hacs_temp/custom_components/hacs hacs
 rm -R hacs_temp
 ```
 
-Restart Home Assistant once before moving on to the configuration ([UI](configuration_ui.md) / [YAML](configuration_yaml.md)).
+Restart Home Assistant once before moving on to the configuration ([UI](configuration/ui.md) / [YAML](configuration/yaml.md)).

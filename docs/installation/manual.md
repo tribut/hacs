@@ -1,5 +1,5 @@
 ---
-id: installation_manual
+id: manual
 title: Manual Installation
 sidebar_label: Manual Installation
 ---
@@ -8,14 +8,9 @@ This integration requires **a lot** of files.
 
 The easiest way to make sure that you have them all is to download the `.zip` file from the repository.
 
-## Prerequisittes
-
-- **You need to use Home Assistant version 0.97.0 or newer for the latest version of HACS to work. Check the release notes before you download as this page may be slightly out of date.**
-- **If you move from [`custom_updater`](https://github.com/custom-components/custom_updater) to this see the special note at the bottom here.**
-
 ## Installation steps
 
-If you want to download using a terminal (and git) [look here](installation_cli.md)
+If you want to download using a terminal (and git) [look here](installation/cli.md)
 
 ### Step 1 - Open browser
 
@@ -83,10 +78,10 @@ Restart Home Assistant once before moving on to step 8.
 
 ### Step 8 - ✏️
 
-You should now be done, next part will be to add it to your configuration ([UI](configuration_ui.md) / [YAML](configuration_yaml.md)).
+You should now be done, next part will be to add it to your configuration ([UI](configuration/ui.md) / [YAML](configuration/yaml.md)).
 
 
-## Moving from [`custom_updater`](https://github.com/custom-components/custom_updater)
+## Moving from custom_updater
 
 If you have [`custom_updater`](https://github.com/custom-components/custom_updater) installed you need to remove that (rename the directory or delete it completely). You will also need to remove the custom_updater entry from your configuration.yaml file.
 
@@ -94,4 +89,4 @@ HACS and [`custom_updater`](https://github.com/custom-components/custom_updater)
 
 If you used the special endpoint `/customcards/` endpoint for your Lovelace cards, you now need to reinstall that plugin using HACS and use the url provided in the page for that plugin in the HACS UI, if the plugin is not there you need to use `/local/` instead.
 
-As noted under ['Existing elements'](usage_existing_elements.md) You need to click the "INSTALL" button for each element you previously have installed.
+As noted under ['Existing elements'](basic/existing_elements.md) You need to click the "INSTALL" button for each element you previously have installed.

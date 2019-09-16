@@ -16,7 +16,7 @@ const siteConfig = {
   organizationName: 'custom-components',
   editUrl: 'https://github.com/custom-components/hacs/edit/master/docs/',
   headerLinks: [
-    { doc: 'developer_test', label: 'Developer docs' },
+    { doc: 'developer/start', label: 'Developer docs' },
     { page: 'help', label: 'Help' },
     { href: 'https://github.com/custom-components/hacs', label: 'GitHub' },
   ],

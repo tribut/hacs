@@ -1,5 +1,5 @@
 ---
-id: category_python_scripts
+id: python_scripts
 title: Python Scripts
 sidebar_label: Python Scripts
 ---

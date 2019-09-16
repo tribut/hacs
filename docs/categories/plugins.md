@@ -1,5 +1,5 @@
 ---
-id: category_plugins
+id: plugins
 title: Lovelace Plugins
 sidebar_label: Lovelace Plugins
 ---

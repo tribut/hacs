@@ -1,31 +1,39 @@
 {
   "usage": {
-    "HACS": [
-      "usage_getting_started",
-      "usage_updates",
-      "usage_existing_elements",
-      "usage_startup",
-      "usage_updates",
-      "usage_logs"
+    "Basic": [
+      "basic/getting_started",
+      "basic/updates",
+      "basic/existing_elements",
+      "basic/startup",
+      "basic/updates",
+      "basic/logs"
     ],
     "Categories": [
-      "category_custom_components",
-      "category_plugins",
-      "category_appdaemon_apps",
-      "category_python_scripts",
-      "category_themes"
+      "categories/custom_components",
+      "categories/plugins",
+      "categories/appdaemon_apps",
+      "categories/python_scripts",
+      "categories/themes"
     ]
   },
   "installation": {
     "Installation": [
-      "installation_manual",
-      "installation_cli"
+      "installation/prerequisittes",
+      "installation/manual",
+      "installation/cli"
     ]
   },
   "configuration": {
     "Configuration": [
-      "configuration_ui",
-      "configuration_yaml"
+      "configuration/ui",
+      "configuration/yaml"
     ]
+  },
+  "developer documentation": {
+    "HACS Development": [
+      "developer/start",
+      "developer/devcontainer"
+    ],
+    "Publish to HACS": []
   }
 }

@@ -1,5 +1,5 @@
 ---
-id: category_themes
+id: themes
 title: Themes
 sidebar_label: Themes
 ---

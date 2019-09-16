@@ -1,5 +1,5 @@
 ---
-id: usage_updates
+id: updates
 title: Updates
 sidebar_label: Updates
 ---

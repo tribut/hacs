@@ -57,9 +57,9 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href={docUrl('installation_manual.html')}>Installation</Button>
-            <Button href={docUrl('configuration_ui.html')}>Configuration</Button>
-            <Button href={docUrl('usage_getting_started.html')}>Getting started</Button>
+            <Button href={docUrl('installation/prerequisittes.html')}>Installation</Button>
+            <Button href={docUrl('configuration/ui.html')}>Configuration</Button>
+            <Button href={docUrl('basic/getting_started.html')}>Getting started</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -97,61 +97,29 @@ class Index extends React.Component {
       <Block layout="threeColumn">
         {[
           {
-            title: "<a href='/docs/usage_custom_components'>Custom Components</a>",
+            title: "<a href='/docs/categories/custom_components'>Custom Components</a>",
           },
           {
-            title: "<a href='/docs/usage_plugins'>Lovelace Plugins</a>",
+            title: "<a href='/docs/categories/plugins'>Lovelace Plugins</a>",
           },
           {
-            title: "<a href='/docs/usage_appdaemon_apps'>Appdaemon apps</a>",
+            title: "<a href='/docs/categories/appdaemon_apps'>Appdaemon apps</a>",
           },
           {
-            title: "<a href='/docs/usage_python_scripts'>Python scripts</a>",
+            title: "<a href='/docs/categories/python_scripts'>Python scripts</a>",
           },
           {
-            title: "<a href='/docs/usage_themes'>Themes</a>",
+            title: "<a href='/docs/categories/themes'>Themes</a>",
           }
         ]}
       </Block>
     );
-
-    const Description = () => (
-      <Block background="dark">
-        {[
-          {
-            content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_note_list.svg`,
-            imageAlign: 'right',
-            title: 'Description',
-          },
-        ]}
-      </Block>
-    );
-
-    const LearnHow = () => (
-      <Block background="light">
-        {[
-          {
-            content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
-            imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
-          },
-        ]}
-      </Block>
-    );
-
-
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <FeatureCallout />
           <Features />
-          <LearnHow />
-          <Description />
         </div>
       </div>
     );

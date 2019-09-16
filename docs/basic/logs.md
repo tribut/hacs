@@ -1,5 +1,5 @@
 ---
-id: usage_logs
+id: logs
 title: Logs
 sidebar_label: Logs
 ---
