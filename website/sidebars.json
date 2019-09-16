@@ -1,17 +1,19 @@
 {
   "usage": {
-    "Getting Started": [
-      "usage_getting_started"
+    "HACS": [
+      "usage_getting_started",
+      "usage_updates",
+      "usage_existing_elements",
+      "usage_startup",
+      "usage_updates",
+      "usage_logs"
     ],
     "Categories": [
-      "usage_custom_components",
-      "usage_plugins",
-      "usage_appdaemon_apps",
-      "usage_python_scripts",
-      "usage_themes"
-    ],
-    "Second Category": [
-      "cli"
+      "category_custom_components",
+      "category_plugins",
+      "category_appdaemon_apps",
+      "category_python_scripts",
+      "category_themes"
     ]
   },
   "installation": {

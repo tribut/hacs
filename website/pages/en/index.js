@@ -31,7 +31,7 @@ class HomeSplash extends React.Component {
 
     const ProjectTitle = () => (
       <h2 className="projectTitle">
-        {siteConfig.title}
+        HACS
         <small>{siteConfig.tagline}</small>
       </h2>
     );
@@ -89,7 +89,7 @@ class Index extends React.Component {
       <div
         className="productShowcaseSection"
         style={{ textAlign: 'center' }}>
-        <MarkdownBlock>HACS is a component that gives the user a powerful UI to handle downloads of custom needs.</MarkdownBlock>
+        <MarkdownBlock>HACS gives the user a powerful UI to handle downloads of custom needs.</MarkdownBlock>
       </div>
     );
 

@@ -1,7 +1,7 @@
 ---
 id: configuration_yaml
-title: Latin-ish
-sidebar_label: YAML (legazy)
+title: Configure HACS with YAML
+sidebar_label: YAML (legacy)
 ---
 
 ...

@@ -38,7 +38,6 @@ class Footer extends React.Component {
           <div>
             <h5>More Links</h5>
             <a href="https://community.home-assistant.io/t/custom-component-hacs/121727" target="_blank">Forum</a>
-            <a href={this.props.config.repoUrl} target="_blank">GitHub Repository</a>
             <a
               className="github-button"
               href={this.props.config.repoUrl}
@@ -47,7 +46,7 @@ class Footer extends React.Component {
               data-show-count="true"
               data-count-aria-label="# stargazers on GitHub"
               aria-label="Star this project on GitHub">
-              HACS
+              GitHub
             </a>
           </div>
         </section>
