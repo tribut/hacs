@@ -1,0 +1,29 @@
+{
+  "usage": {
+    "Getting Started": [
+      "usage_getting_started"
+    ],
+    "Categories": [
+      "usage_custom_components",
+      "usage_plugins",
+      "usage_appdaemon_apps",
+      "usage_python_scripts",
+      "usage_themes"
+    ],
+    "Second Category": [
+      "cli"
+    ]
+  },
+  "installation": {
+    "Installation": [
+      "installation_manual",
+      "installation_cli"
+    ]
+  },
+  "configuration": {
+    "Configuration": [
+      "configuration_ui",
+      "configuration_yaml"
+    ]
+  }
+}

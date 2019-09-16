@@ -3,3 +3,5 @@ site
 __pycache__
 settings.json
 .devcontainer/configuration.yaml
+node_modules
+i18n
